@@ -1,0 +1,37 @@
+# Python cache
+__pycache__/
+*.pyc
+
+# Virtual environment
+venv/
+env/
+
+# Logs and generated files
+logs/
+*.log
+attack_logs.csv
+
+# Dataset (large files)
+data/
+*.csv
+
+# Model files
+model/
+*.h5
+*.keras
+*.pt
+*.pth
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+# Temporary files
+*.tmp
